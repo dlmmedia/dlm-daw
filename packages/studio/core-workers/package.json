@@ -1,0 +1,27 @@
+{
+  "name": "@dlm-daw/studio-core-workers",
+  "version": "0.0.24",
+  "license": "LGPL-3.0-or-later",
+  "private": true,
+  "exports": {
+    ".": "./src/index.ts"
+  },
+  "scripts": {
+    "lint": "eslint \"**/*.ts\"",
+    "build": "esbuild src/workers-main.ts --bundle --format=esm --platform=browser --minify --sourcemap --outfile=../core/dist/workers-main.js",
+    "test": "echo \"No tests to run\""
+  },
+  "dependencies": {
+    "@dlm-daw/lib-box": "^0.0.28",
+    "@dlm-daw/lib-dsp": "^0.0.28",
+    "@dlm-daw/lib-runtime": "^0.0.28",
+    "@dlm-daw/lib-std": "^0.0.28",
+    "@dlm-daw/studio-adapters": "^0.0.29",
+    "@dlm-daw/studio-boxes": "^0.0.28",
+    "@dlm-daw/studio-enums": "^0.0.21"
+  },
+  "devDependencies": {
+    "@dlm-daw/eslint-config": "^0.0.19",
+    "@dlm-daw/typescript-config": "^0.0.20"
+  }
+}

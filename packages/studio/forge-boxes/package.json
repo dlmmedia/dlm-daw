@@ -1,0 +1,27 @@
+{
+  "name": "@dlm-daw/studio-forge-boxes",
+  "version": "0.0.28",
+  "license": "LGPL-3.0-or-later",
+  "private": true,
+  "exports": {
+    ".": "./src/index.ts"
+  },
+  "scripts": {
+    "lint": "eslint \"**/*.ts\"",
+    "format": "prettier --write \"../boxes/src/**/*.ts\" --ignore-path /dev/null",
+    "clear": "rm -rf ../boxes/src/*",
+    "build": "npm run clear && npx tsx src/forge.ts && npm run format",
+    "test": "echo \"No tests to run\""
+  },
+  "dependencies": {
+    "@dlm-daw/lib-box": "^0.0.28",
+    "@dlm-daw/lib-dsp": "^0.0.28",
+    "@dlm-daw/lib-runtime": "^0.0.28",
+    "@dlm-daw/lib-std": "^0.0.28",
+    "@dlm-daw/studio-enums": "^0.0.21"
+  },
+  "devDependencies": {
+    "@dlm-daw/eslint-config": "^0.0.19",
+    "@dlm-daw/typescript-config": "^0.0.20"
+  }
+}

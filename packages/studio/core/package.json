@@ -1,0 +1,53 @@
+{
+  "name": "@dlm-daw/studio-core",
+  "version": "0.0.37",
+  "license": "LGPL-3.0-or-later",
+  "publishConfig": {
+    "access": "public"
+  },
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "default": "./dist/index.js"
+    },
+    "./workers-main.js": "./dist/workers-main.js",
+    "./processors.js": "./dist/processors.js"
+  },
+  "files": [
+    "dist/**",
+    "dist/workers-main.js",
+    "dist/processors.js"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "lint": "eslint \"**/*.ts\"",
+    "test": "vitest run --config vitest.config.ts"
+  },
+  "dependencies": {
+    "@liveblocks/client": "^3.7.1",
+    "@liveblocks/yjs": "^3.7.1",
+    "@dlm-daw/lib-box": "^0.0.28",
+    "@dlm-daw/lib-dawproject": "^0.0.14",
+    "@dlm-daw/lib-dom": "^0.0.28",
+    "@dlm-daw/lib-dsp": "^0.0.28",
+    "@dlm-daw/lib-fusion": "^0.0.28",
+    "@dlm-daw/lib-runtime": "^0.0.28",
+    "@dlm-daw/lib-std": "^0.0.28",
+    "@dlm-daw/studio-adapters": "^0.0.29",
+    "@dlm-daw/studio-boxes": "^0.0.28",
+    "@dlm-daw/studio-enums": "^0.0.21",
+    "dropbox": "^10.34.0",
+    "yjs": "^13.6.27",
+    "y-webrtc": "^10.3.0"
+  },
+  "devDependencies": {
+    "@dlm-daw/eslint-config": "^0.0.19",
+    "@dlm-daw/studio-core-processors": "^0.0.29",
+    "@dlm-daw/studio-core-workers": "^0.0.24",
+    "@dlm-daw/studio-forge-boxes": "^0.0.28",
+    "@dlm-daw/typescript-config": "^0.0.20"
+  },
+  "gitHead": "498716ab88a9a6bba7f8e1c034703cdc749ef8b0"
+}

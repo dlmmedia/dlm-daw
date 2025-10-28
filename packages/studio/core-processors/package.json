@@ -1,0 +1,28 @@
+{
+  "name": "@dlm-daw/studio-core-processors",
+  "version": "0.0.29",
+  "license": "LGPL-3.0-or-later",
+  "private": true,
+  "exports": {
+    ".": "./src/index.ts"
+  },
+  "scripts": {
+    "lint": "eslint \"**/*.ts\"",
+    "build": "esbuild src/register.ts --bundle --format=esm --platform=browser --minify --sourcemap --outfile=../core/dist/processors.js",
+    "test": "echo \"No tests to run\""
+  },
+  "dependencies": {
+    "@dlm-daw/lib-box": "^0.0.28",
+    "@dlm-daw/lib-dsp": "^0.0.28",
+    "@dlm-daw/lib-runtime": "^0.0.28",
+    "@dlm-daw/lib-std": "^0.0.28",
+    "@dlm-daw/studio-adapters": "^0.0.29",
+    "@dlm-daw/studio-boxes": "^0.0.28",
+    "@dlm-daw/studio-enums": "^0.0.21",
+    "@types/audioworklet": "^0.0.77"
+  },
+  "devDependencies": {
+    "@dlm-daw/eslint-config": "^0.0.19",
+    "@dlm-daw/typescript-config": "^0.0.20"
+  }
+}

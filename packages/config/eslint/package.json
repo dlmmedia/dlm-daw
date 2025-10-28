@@ -1,0 +1,9 @@
+{
+  "name": "@dlm-daw/eslint-config",
+  "version": "0.0.19",
+  "private": true,
+  "main": "index.js",
+  "publishConfig": {
+    "access": "public"
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "extends": "@dlm-daw/typescript-config/vite.json",
+  "include": [
+    "src"
+  ]
+}
