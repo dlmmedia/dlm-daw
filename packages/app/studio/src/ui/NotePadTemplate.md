@@ -1,26 +1,22 @@
-# Introducing the OpenDAW Project Notepad
+# Project Notes
 
-## A Space for Your Thoughts, Lyrics, and Ideas
+## A Space for Your Creative Process
 
-Every musical project starts with an idea. Sometimes it’s a melody, a rhythm, or a lyric that sparks inspiration. To
-make
-it easier to capture and organize your thoughts, OpenDAW introduces the Project Notepad, a dedicated space where you can
-write down everything that matters for your project.
+Every musical project starts with an idea. This notepad provides a dedicated space to capture and organize your thoughts, lyrics, and creative concepts.
 
-## What Can You Use It For?
+## What You Can Use It For
 
-The Project Notepad is a flexible and intuitive tool designed to support your creative process. You can use it to:
+This notepad is designed to support your creative workflow. You can use it to:
 
-* Write lyrics
-* Store musical ideas
-* Keep session notes
-* Share project details
+* Write lyrics and chord progressions
+* Jot down musical ideas and inspiration
+* Keep session notes and reminders
+* Document project details and changes
 
-## How To?
+## How to Edit
 
-To make changes, simply press the edit icon. Your notes will be saved automatically, ensuring that no ideas get lost.
+Click the edit icon to make changes. Your notes are saved automatically when you finish editing.
 
-## Markdown
+## Markdown Support
 
-The notepad supports many markdown features. Get yourself familiar with
-markdown [here](https://markdownlivepreview.com/).
+The notepad supports markdown formatting for better organization. Learn more about markdown [here](https://markdownlivepreview.com/).

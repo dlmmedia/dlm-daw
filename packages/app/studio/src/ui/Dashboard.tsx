@@ -19,8 +19,8 @@ export const Dashboard = ({lifecycle, service}: Construct) => {
     return (
         <div className={className}>
             <article>
-                <h1>Welcome to DLM DAW</h1>
-                <h2>A new holistic exploration of music creation powered by DLM World</h2>
+                <h1>Welcome to the Studio</h1>
+                <h2>A digital audio workstation for music creation</h2>
                 <p style={{margin: "1em 0 0 0"}}>
                     This is an <span className="highlight">early prototype</span> giving you an early glimpse of the
                     development
@@ -68,13 +68,6 @@ export const Dashboard = ({lifecycle, service}: Construct) => {
                                         }}/>
                     </div>
                 </div>
-                <p style={{marginTop: "2em", fontSize: "0.625em", textAlign: "center"}}>
-                    Last built was <span style={{color: Colors.green}}>{time}</span>. Join our <a
-                    href="https://discord.dlm-daw.studio" target="discord" style={{color: Colors.blue}}>discord
-                    community</a> to stay updated! · <a href="https://github.com/dlm-daw/dlm-daw"
-                                                        target="github"
-                                                        style={{color: Colors.blue}}>sourcecode</a> · Built with ❤️
-                </p>
             </article>
         </div>
     )
